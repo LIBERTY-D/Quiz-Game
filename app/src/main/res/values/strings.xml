@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="or">OR</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="forgot_password"> <b>Forgot Password?</b> </string>
+    <string name="signup">
+        Don\'t have an account <font color="red"> <b>signup.</b></font>
+    </string>
+    <string name="default_web_client_id">web_client_id</string>
+
+</resources>

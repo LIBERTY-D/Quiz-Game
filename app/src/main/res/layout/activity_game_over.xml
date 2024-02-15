@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E1219"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.GameOver">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+
+      android:gravity="center">
+
+      <TextView
+          android:id="@+id/totalCorrect"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/yellow"
+          android:text="correct"
+          android:layout_marginHorizontal="20sp"
+          android:textSize="30sp"
+          android:textStyle="bold"
+
+          />
+      <TextView
+          android:id="@+id/totalWrong"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/yellow"
+          android:text="wong: "
+          android:textSize="30sp"
+          android:textStyle="bold"
+
+          />
+  </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:backgroundTint="#FFC107"
+            android:text="Retry" />
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFC107"
+            android:text="Quit" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
